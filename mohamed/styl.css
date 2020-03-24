@@ -1,0 +1,58 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 30%;
+    background-image: url(./assets/background.jpg);
+    background-repeat: repeat-y;
+   background-position: top;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.info_1 {
+    background-image: url(./assets/task2-bg.jpeg);
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 120px;
+    margin: 20px;
+    
+    border: 3px solid black;
+    background-position: right left;
+    background-size: cover;
+
+}
+
+.info_2 {
+    background-image: url(./assets/task2-bg1.jpeg);
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 120px;
+    margin: 20px;
+    
+    border: 3px solid black;
+    background-size: cover;
+    background-position: right bottom ; 
+    
+}
+.info_3 {
+    background-image: url(./assets/task2-bg2.jpg);
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 120px;
+    margin: 20px;
+    border: 3px solid black;
+    background-position: right top;
+    background-size: cover;
+}
+
+div  {
+    display: inline-block;
+    padding: 3px;
+    
+}
