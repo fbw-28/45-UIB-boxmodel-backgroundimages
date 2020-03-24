@@ -1,5 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
 .info-1, .info-2, .info-3 {
-    width: 30%;
+    display: inline-block;
+    width: 33%;
+    padding: 20px;
+    border-radius: 5%;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background: no-repeat bottom;
+    background-size: cover;
+}
+
+.info-1 {
+    background-image: url(./assets/task2-bg.jpeg);
+}
+
+.info-2 {
+    background-image: url(./assets/task2-bg1.jpeg);
+}
+
+.info-3 {
+    background-image: url(./assets/task2-bg2.jpg);
 }
