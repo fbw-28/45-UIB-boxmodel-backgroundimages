@@ -1,0 +1,37 @@
+.info-1, .info-2, .info-3 {
+    width: 30%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.container {
+    display: flex;  
+    
+  }
+  .container > div {
+    flex: 1; /*grow*/ 
+    display: contents;    
+  }
+
+
+.info-1 {
+  background-image: url(./assets/task2-bg1.jpeg);
+}
+
+.info-2 {
+  background-image: url(./assets/task2-bg2.jpg);
+}
+
+.info-3 {
+  background-image: url(./assets/task2-bg.jpeg);
+}
+
+article, h2 {
+  margin: 5px;
+  padding: 5px;
+}
+
+section {
+  margin: 5px;
+  padding: 5px;
+}
