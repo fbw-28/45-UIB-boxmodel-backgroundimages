@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    height: 30%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-image: url(/exercises/UIB/45-UIB-boxmodel-backgroundimages/Pei-Ling/task-1/assets/background.jpg) ;
+    background-repeat: round; 
+    
+}
