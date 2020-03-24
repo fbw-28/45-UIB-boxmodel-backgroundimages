@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    background-image: url(./assets1/background.jpg);
+    height: 30%;
+    background-size: 10x;
+   
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
