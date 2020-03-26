@@ -1,0 +1,36 @@
+.info-1, .info-2, .info-3 {
+    width: 30%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 15px;
+    border: 2px solid rgb(4, 11, 71);
+    border-radius: 50px 20px;
+   
+}
+
+
+.info-1{
+    background-image: url(./assets/task2-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.info-2{
+    background-image: url(./assets/task2-bg1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.info-3{
+    background-image: url(./assets/task2-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+div {
+    display:flex;
+    justify-content: space-between;      
+}
