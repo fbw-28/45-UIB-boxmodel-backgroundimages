@@ -1,6 +1,7 @@
 .info-1, .info-2, .info-3 {
-    padding: 20px;
+    box-sizing: border-box;
     display: inline-block;
+    padding: 20px;
     width: 30%;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -8,7 +9,6 @@
     background-size: cover;
     background-position: bottom ;  
     background-repeat: no-repeat;
-
 }
 
 
